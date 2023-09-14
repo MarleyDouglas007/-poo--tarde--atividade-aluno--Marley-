@@ -1,7 +1,13 @@
 body {
     background-color: rgb(0, 0, 0);
+    color: #efefef;
     display: flex;
     /*flex-direction: column ;*/
+    flex-direction: column;
+}
+
+.container{
+    display: flex;
     flex-wrap: wrap;
 }
 
@@ -9,12 +15,13 @@ body {
     width: 250px;
     padding: 20px;
     border: solid 1px rgb(8, 218, 255);
-    border-radius: 8px;/*arrendondar a borda das fts*/
+    border-radius: 8px;
+    /*arrendondar a borda das fts*/
     margin: 16px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(255, 255, 255);
-    
-    
+
+
 }
 
 .card:hover {
@@ -34,12 +41,13 @@ body {
     filter: blur(3px);
 
 }
-.card:hover .foto{
+
+.card:hover .foto {
     filter: grayscale(0);
 }
 
 .nome {
-    color:blue rgb(red, green, blue);
+    color: blue rgb(red, green, blue);
     font-size: 20px;
     font-weight: 900;
 }
