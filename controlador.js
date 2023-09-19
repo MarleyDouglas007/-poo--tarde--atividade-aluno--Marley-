@@ -14,9 +14,9 @@ inputCidade.value = 'alagoas'
 
 //listeners ou fofoqueiros ----------------------------------
 buttonCadastrar.addEventListener('click', quandoClicarEmCadastrar);
-
 //-----------------------------------------------------------
 
+let modulo2 = new turma("2° módulo - vespertino ");
 
 
 
@@ -28,7 +28,7 @@ function quandoClicarEmCadastrar() {
         inputDatadeNascimento.value,
         inputCidade.value
     );
-    listaDeAlunos.push(alunoTemp);
+    modulo2.adicionarAluno(alunoTemp);
     desenharCards(divContaneinerCards);
     console.log(listaDeAlunos);
 }

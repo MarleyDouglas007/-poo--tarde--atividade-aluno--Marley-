@@ -10,6 +10,13 @@
 // let aluno10 = new Aluno('img/joao01.webp', 'João', '007', new Date("1975-1-2"), 'USA',)
 
 
+// let modulo1 = new Turma('1° módulo');
+// modulo1.adicionarAluno(aluno7)
+// modulo1.adicionarAluno(aluno10)
+// let modulo2 = new Turma('2° módulo');
+// modulo1.adicionarAluno(aluno9)
+// let modulo3 = new Turma('3° módulo');
+
 let listaDeAlunos = []
 // listaDeAlunos.push(aluno1)
 // listaDeAlunos.push(aluno2)

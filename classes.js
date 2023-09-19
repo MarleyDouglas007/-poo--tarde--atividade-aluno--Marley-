@@ -18,3 +18,23 @@ class Aluno {
 
 }
 
+//classe contaneiner
+
+// add 2 atributos a esta classe:
+// título
+// lista de Alunos
+//o construtor deverá ter 1 entrada: título
+// o construtor deverá inicializar :
+//o atributo título com aentrada título 
+//e o atributo lista de alunos com um array vazio 
+
+class turma {
+    constructor(titulo) {
+        this.titulo = titulo;
+        this.listaDeAlunos = [];
+    }
+    adicionarAluno(aluno){
+        this.listaDeAlunos.push(aluno)
+    }
+}
+
